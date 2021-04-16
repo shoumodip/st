@@ -73,13 +73,13 @@ char *termname = "st-256color";
  * the st.info and appropriately install the st.info in the environment where
  * you use this st version.
  *
- *	it#$tabspaces,
+ * it#$tabspaces,
  *
  * Secondly make sure your kernel is not expanding tabs. When running `stty
  * -a` »tab0« should appear. You can tell the terminal to not expand tabs by
  *  running following command:
  *
- *	stty tabs
+ * stty tabs
  */
 unsigned int tabspaces = 8;
 
@@ -87,31 +87,31 @@ unsigned int tabspaces = 8;
 static const char *colorname[] = {
 
     /* Normal colors */
-    "#073642",
-    "#dc322f",
-    "#859900",
-    "#b58900",
-    "#268bd2",
-    "#d33682",
-    "#2aa198",
-    "#eee8d5",
+    "#282828",
+    "#ea6962",
+    "#a9b665",
+    "#d8a657",
+    "#7daea3",
+    "#d3869b",
+    "#89b482",
+    "#d4be98",
 
     /* Bright colors */
-    "#002b36",
-    "#cb4b16",
-    "#586e75",
-    "#657b83",
-    "#839496",
-    "#6c71c4",
-    "#93a1a1",
-    "#fdf6e3",
+    "#282828",
+    "#ea6962",
+    "#a9b665",
+    "#d8a657",
+    "#7daea3",
+    "#d3869b",
+    "#89b482",
+    "#d4be98",
 
     [255] = 0,
 
-    "#839496",
-    "#002b36",
-    "#839496",
-    "#002b36",
+    "#d4be98",
+    "#282828",
+    "#d4be98",
+    "#282828",
 };
 
 
