@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* Appearance */
-static char *font = "Monospace:pixelsize=18:style=Medium:antialias=true:autohint=true";
+static char *font = "Monospace:pixelsize=16:style=Medium:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -87,31 +87,31 @@ unsigned int tabspaces = 8;
 static const char *colorname[] = {
 
     /* Normal colors */
-    "#282828",
-    "#ea6962",
-    "#a9b665",
-    "#d8a657",
-    "#7daea3",
-    "#d3869b",
-    "#89b482",
-    "#d4be98",
+    "#282C34",
+    "#E06C75",
+    "#98C379",
+    "#E5C07B",
+    "#61AFEF",
+    "#C678DD",
+    "#56B6C2",
+    "#ABB2BF",
 
     /* Bright colors */
-    "#282828",
-    "#ea6962",
-    "#a9b665",
-    "#d8a657",
-    "#7daea3",
-    "#d3869b",
-    "#89b482",
-    "#d4be98",
+    "#3E4452",
+    "#BE5046",
+    "#98C379",
+    "#D19A66",
+    "#61AFEF",
+    "#C678DD",
+    "#56B6C2",
+    "#5C6370",
 
     [255] = 0,
 
-    "#d4be98",
-    "#282828",
-    "#d4be98",
-    "#282828",
+    "#61AFEF",
+    "#282C34",
+    "#ABB2BF",
+    "#282C34",
 };
 
 
