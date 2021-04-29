@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* Appearance */
-static char *font = "Monospace:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Monospace:pixelsize=15:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -87,31 +87,31 @@ unsigned int tabspaces = 8;
 static const char *colorname[] = {
 
     /* Normal colors */
-    "#3b3b3b",
-    "#cf6a4c",
-    "#99ad6a",
-    "#d8ad4c",
-    "#597bc5",
-    "#c6b6ee",
-    "#71b9f8",
-    "#adadad",
+    "#3B4252",
+    "#BF616A",
+    "#A3BE8C",
+    "#EBCB8B",
+    "#81A1C1",
+    "#B48EAD",
+    "#88C0D0",
+    "#E5E9F0",
 
     /* Bright colors */
-    "#3b3b3b",
-    "#cf6a4c",
-    "#99ad6a",
-    "#d8ad4c",
-    "#597bc5",
-    "#c6b6ee",
-    "#71b9f8",
-    "#adadad",
+    "#4C566A",
+    "#BF616A",
+    "#A3BE8C",
+    "#EBCB8B",
+    "#81A1C1",
+    "#B48EAD",
+    "#8FBCBB",
+    "#ECEFF4",
 
     [255] = 0,
 
-    "#b0d0f0",
-    "#151515",
-    "#e8e8d3",
-    "#151515",
+    "#D8DEE9",
+    "#2E3440",
+    "#D8DEE9",
+    "#2E3440",
 };
 
 
@@ -177,9 +177,9 @@ static Shortcut shortcuts[] = {
     { TERMMOD,          XK_J,       zoom,           {.f = -1} },
 
     { MODKEY,           XK_1,       zoomreset,      {.i = -1} },
-    { MODKEY,           XK_2,       zoomset,        {.f = 28} },
-    { MODKEY,           XK_3,       zoomset,        {.f = 38} },
-    { MODKEY,           XK_4,       zoomset,        {.f = 48} },
+    { MODKEY,           XK_2,       zoomset,        {.f = 19} },
+    { MODKEY,           XK_3,       zoomset,        {.f = 23} },
+    { MODKEY,           XK_4,       zoomset,        {.f = 27} },
 };
 
 /*
