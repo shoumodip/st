@@ -177,9 +177,9 @@ static Shortcut shortcuts[] = {
     { TERMMOD,          XK_J,       zoom,           {.f = -1} },
 
     { MODKEY,           XK_1,       zoomreset,      {.i = -1} },
-    { MODKEY,           XK_2,       zoomset,        {.f = 19} },
-    { MODKEY,           XK_3,       zoomset,        {.f = 23} },
-    { MODKEY,           XK_4,       zoomset,        {.f = 27} },
+    { MODKEY,           XK_2,       zoomset,        {.f = 28} },
+    { MODKEY,           XK_3,       zoomset,        {.f = 38} },
+    { MODKEY,           XK_4,       zoomset,        {.f = 48} },
 };
 
 /*
